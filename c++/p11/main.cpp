@@ -2,6 +2,8 @@
 
 int myNumber = 4;
 
+int printNumber();
+
 int main()
 {
   ::myNumber = printNumber();
