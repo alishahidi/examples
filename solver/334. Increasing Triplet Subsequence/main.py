@@ -3,7 +3,7 @@ def increasingTriplet(nums) -> bool:
     if length < 3:
         return False
 
-    first = second = float('inf')
+    first = second = 1
 
     for num in nums:
         if num <= first:
